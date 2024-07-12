@@ -2,7 +2,7 @@ import React from "react";
 
 const Index = () => {
   return (
-    <section className="group relative bg-hero-pattern h-auto lg:h-128 w-screen bg-no-repeat bg-center bg-cover ">
+    <section className="group relative bg-hero-pattern h-auto lg:h-128 bg-no-repeat bg-center bg-cover ">
       <div className="h-128 bg-gradient-to-b from-transparent to-black w-full">
         <div className="container flex  items-end px-3 ">
           <div className="heroMain absolute bottom-4 font-roboto w-4/5 lg:w-6/12">

@@ -6,7 +6,7 @@ const Index = () => {
   };
   return (
     <>
-      <header className="h-auto m-0 box-border py-6 md:py-8 bg-black text-white font-roboto sticky top-0 left-0 w-screen">
+      <header className="h-auto m-0 box-border py-6 md:py-8 bg-black text-white font-roboto ">
         <div className="container flex justify-evenly sm:justify-between items-center px-3 space-x-4 sm:space-x-12 lg:space-x-16">
           <div className="text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-gray-900 to-rose-600 bg-clip-text text-transparent">
             GEGA
@@ -53,7 +53,7 @@ const Index = () => {
           </nav>
         </div>
         {isClick && (
-          <div className="menu transition-all duration-400">
+          <div className="menu transition-all duration-1000">
             <ul className="list-none text-center space-y-2 py-3">
               <li className="hover:text-yellow-500 transition ease-in duration-200 cursor-pointer">
                 MOVIES
